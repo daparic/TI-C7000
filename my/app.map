@@ -1,0 +1,43 @@
+******************************************************************************
+                     C7x Linker PC v5.0.0                      
+******************************************************************************
+>> Linked Mon Sep  1 16:40:53 2025
+
+OUTPUT FILE NAME:   <app.out>
+ENTRY POINT SYMBOL: 0
+
+
+MEMORY CONFIGURATION
+
+         name            origin         length     used     unused   attr    fill
+----------------------  ------------   --------  --------  --------  ----  --------
+  L2RAM                 000000800000   00100000  00000000  00100000  RW X
+  MSMC                  000070000000   00800000  00000000  00800000  RW X
+  DDR                   000080000000   40000000  00000000  40000000  RW X
+
+
+SECTION ALLOCATION MAP
+
+ output                                      attributes/
+section   page      origin        length       input sections
+--------  ----  --------------  ----------   ----------------
+.cinit     0    000000800000    00000000     UNINITIALIZED
+
+MODULE SUMMARY
+
+       Module   code   ro data   rw data
+       ------   ----   -------   -------
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address       name
+------------  ----
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address       name
+------------  ----
+
+[0 symbols]
